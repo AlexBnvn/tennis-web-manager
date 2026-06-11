@@ -1,3 +1,13 @@
+# Dépendances
 node_modules/
+
+# Fichiers de build*
+dist/
+*.tsbuildinfo
+
+# Logs
 .pnpm-debug.log
+
+# Variables d'environnement
 .env
+.env.*
