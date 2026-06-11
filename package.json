@@ -5,5 +5,9 @@
     "scripts": {
         "dev": "pnpm --filter \"@twm/*\" dev",
         "build": "pnpm --filter \"@twm/*\" build"
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.8.4"
     }
 }
