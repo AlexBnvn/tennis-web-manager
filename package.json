@@ -1,0 +1,9 @@
+{
+    "name": "tennis-web-manager",
+    "version": "1.0.0",
+    "description": "Monorepo for the tennis web manager application",
+    "scripts": {
+        "dev": "pnpm --filter \"@twm/*\" dev",
+        "build": "pnpm --filter \"@twm/*\" build"
+    }
+}
